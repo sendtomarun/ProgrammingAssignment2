@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function takes the special list returned by the above function and computes(caches)
-# the inverse of the matrix with which the special list was created
+## the inverse of the matrix with which the special list was created
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
